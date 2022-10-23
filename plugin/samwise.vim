@@ -224,7 +224,7 @@ function! s:moveBack() abort"{{{
     if pos < cur_pos
       call cursor(pos, 0)
       return
-    endif
+    endi
   endfor
 endfunction"}}}
 
