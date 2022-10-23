@@ -3,7 +3,7 @@
 scriptencoding utf-8
 
 if exists("g:samwise_loaded") || !has("nvim")
-  finish
+  finsh
 endif
 
 let g:samwise_loaded = v:true
