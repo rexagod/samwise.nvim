@@ -1,0 +1,15 @@
+on:
+  pull_request:
+      branches: ["*"]
+  push:
+      branches: ["*"]
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run linter on the codebase.
+        run: make lint
+      
