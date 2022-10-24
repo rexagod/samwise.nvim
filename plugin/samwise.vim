@@ -1,3 +1,4 @@
+" This file has no error-level lint failures, so this will pass the CI.
 " BSD 2-Clause License Copyright (c) 2021, Pranshu Srivastava et al. All rights reserved.
 
 scriptencoding utf-8
